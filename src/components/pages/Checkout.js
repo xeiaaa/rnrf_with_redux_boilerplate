@@ -10,7 +10,7 @@ import { Container, Header, Title, Card, CardItem, Text, Content, Footer, Footer
 
 import { connect } from 'react-redux';
 
-class Home extends Component{
+class Checkout extends Component{
     render () {
         return (
             <Container>
@@ -18,20 +18,8 @@ class Home extends Component{
                     <Card>
                         <CardItem>                        
                             <Text>
-                                supasdfas
+                                Checkout Item
                             </Text>                     
-                            <Text>
-                                supasdfas
-                            </Text>                     
-                            <Text>
-                                supasdfas
-                            </Text>                     
-                            <Text>
-                                supasdfas
-                            </Text>                     
-                            <Text>
-                                supasdfas
-                            </Text>
                         </CardItem>
                     </Card>
                 </Content>
@@ -46,4 +34,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps)(Checkout);

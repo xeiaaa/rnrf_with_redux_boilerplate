@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { connect } from 'react-redux';
+
+import { Container, Header, Title, Card, CardItem, Text, Content, Footer, FooterTab, Button, Icon } from 'native-base';
 
 class Main extends Component{
     render () {
         return (
-            <View>
-                <Text> Main </Text>
-            </View>
+                <Container></Container>
         )
     }
 }
